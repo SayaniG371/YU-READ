@@ -19,9 +19,14 @@ EVEN THIS WEBSITE IS CREATED USING HTML,JAVASCRIPT, CSS!
 
 
 
-
+THIS IS THE FIRST VIEW OF YU-Read!
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G.JPG)
+
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G2.JPG)
+
+THIS IS ALERT SHOWN FOR CHOICE SELECTED
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G3.JPG)
+
+THIS IS THE BOOK SUGGESTION LIST!
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G4.JPG)
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G5.JPG)
