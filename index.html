@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="stylesheet.css">
+
+<head>
+<div class="header"><h1>Welcome to Yu-read!</h1>
+<h2>NEW READS EVERY MOMENT!</h2></div>
+</head>
+
+<body>
+  
+<div class="bodytop">
+
+    <h3>Have you ever given a thought that you wanted to start coding but could not find the right resources ?</h3>
+    <h3>YU-READ gives you a suggestion according to your needs!</h3>
+    <h5>HAPPY READING HAPPY CODING !</h5>
+         
+         <div class="selectmood"><h4>SELECT YOUR CHOICE!</h4>
+          
+</div>
+      <div class="select"><select id="moodSelector" onchange="getSelectValue();">
+          <option value="1" selected>c++</option>
+          <option value="2">java</option>
+          <option value="3">javascript</option>   
+          <option value="4">python</option>
+          <option value="5">ruby</option>
+        </select> 
+      </div>
+       <br>
+       <div class="btn"><button onclick="fn()">CLICK TO SELECT</button></div>
+               
+      </body>
+
+<script>function fn()
+   {
+     var select=document.getElementById("moodSelector");
+     alert("CHOICE SELECTED !");
+    var x=select.options[select.selectedIndex].value;
+    if(x==1)
+     {  
+        var text1="Stroustrup: The C++ Programming Language";
+        document.write(text1.fontsize(60));
+        document.write("<br />");
+        var img1=document.createElement("img");
+        img1.src=("https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2017/03/Bjarne-Stroustrup-246x300.jpg");
+        document.body.appendChild(img1);
+        img1.style.height = '300px';
+        img1.style.width = '300px';
+
+        document.write("<br />");
+        document.body.style.background='pink';
+
+        var text2="C++ Primer by Barbara E. Moo, Josée Lajoie, Stanley B. Lippman" ;          
+        document.write(text2.fontsize(60));
+        document.write("<br />");
+        var img2=document.createElement("img");
+        img2.src="https://www.oreilly.com/library/cover/9780133053043/250w/";
+        document.body.appendChild(img2);
+        img2.style.height = '300px';
+        img2.style.width = '300px';
+        document.write("<br />");
+       
+
+        var text3=" Modern C++ Design by Andrei Alexandrescu";
+        document.write(text3.fontsize(60));
+        document.write("<br />");
+        var img3=document.createElement("img");
+        img3.src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Modern_C%2B%2B_Design.jpg/220px-Modern_C%2B%2B_Design.jpg";
+        document.body.appendChild(img3);
+        img3.style.height = '300px';
+        img3.style.width = '300px';
+        document.write("<br />");
+
+        var text4=" Effective C++ by Scott Meyers ";
+        document.write(text4.fontsize(60));
+        document.write("<br />");
+        var img4=document.createElement("img");
+        img4.src="https://www.artima.com/cppsource/images/effectiveCppBook.jpg";
+        document.body.appendChild(img4);
+        img4.style.height = '300px';
+        img4.style.width = '300px';
+        document.write("<br />");
+
+        var text5="The C++ Standard Library - A Tutorial and Reference";
+        document.write(text5.fontsize(60));
+        document.write("<br />");
+        var img5=document.createElement("img");
+        img5.src="http://www.cppstdlib.com/pict/C%2B%2BStdLib_Cover_208x259.jpg";
+        document.body.appendChild(img5);
+        img5.style.height = '300px';
+        img5.style.width = '300px';
+        document.write("<br />");
+     }
+     if(x==2)
+
+     {  var text6="Java: A Beginner's Guide by Herbert Schildt ";
+        document.write(text6.fontsize(60));
+        document.write("<br />");
+        var img6=document.createElement("img");
+        img6.src="https://images-na.ssl-images-amazon.com/images/I/41vpaWAbxNL._SX403_BO1,204,203,200_.jpg";
+        document.body.appendChild(img6);
+        img6.style.height = '300px';
+        img6.style.width = '300px';
+        document.write("<br />");
+        document.body.style.background='cadetblue';
+
+        var text7="Thinking in Java by Bruce Eckel";
+        document.write(text7.fontsize(60));
+        document.write("<br />");
+        var img7=document.createElement("img");
+        img7.src="https://images-na.ssl-images-amazon.com/images/I/51a3i4guwhL._SX376_BO1,204,203,200_.jpg";
+        document.body.appendChild(img7);
+        img7.style.height = '300px';
+        img7.style.width = '300px';
+        document.write("<br />");
+     
+        var text8="Beginning Programming with Java For Dummies by Barry Burd";
+        document.write(text8.fontsize(60));
+        document.write("<br />");
+        var img8=document.createElement("img");
+        img8.src="https://images-na.ssl-images-amazon.com/images/I/51SMnhNPpyL._SX396_BO1,204,203,200_.jpg";
+        document.body.appendChild(img8);
+        img8.style.height = '300px';
+        img8.style.width = '300px';
+        document.write("<br />");
+
+
+        var text9="Java in a Nutshell By David Flanagan, Benjamin Evans";
+        document.write(text9.fontsize(60));
+        document.write("<br />");
+        var img9=document.createElement("img");
+        img9.src="https://images-na.ssl-images-amazon.com/images/I/51%2Bu2uGNmEL._SX333_BO1,204,203,200_.jpg";
+        document.body.appendChild(img9);
+        img9.style.height = '300px';
+        img9.style.width = '300px';
+        document.write("<br />");
+
+        var text10="JavaScript: The Definitive Guide";
+        document.write(text10.fontsize(60));
+        document.write("<br />");
+        var img10=document.createElement("img");
+        img10.src="https://images-eu.ssl-images-amazon.com/images/I/51CxDZt9xWL._SX260_.jpg";
+        document.body.appendChild(img10);
+        img10.style.height = '300px';
+        img10.style.width = '300px';
+        document.write("<br />");
+
+     }
+     
+     if(x==3)
+     {  var text11= "JavaScript: The Good Parts by Douglas Crockford" ;
+        document.write(text11.fontsize(60));
+        document.write("<br />");
+        var img11=document.createElement("img");  
+        img11.src="https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SX381_BO1,204,203,200_.jpg";
+        document.body.appendChild(img11);
+        img11.style.height = '300px';
+        img11.style.width = '300px';
+        document.write("<br />");
+        document.body.style.background='cornsilk';
+
+        var text12="Eloquent JavaScript by Marijn Haverbeke"
+        document.write(text12.fontsize(60));
+        document.write("<br />");
+        var img12=document.createElement("img");
+        img12.src="https://eloquentjavascript.net/img/cover.jpg";
+        document.body.appendChild(img12);
+        img12.style.height = '300px';
+        img12.style.width = '300px';
+        document.write("<br />");
+
+        var text13="Effective JavaScript by  David Herman";
+        document.write(text13.fontsize(60));
+        document.write("<br />");
+        var img13=document.createElement("img");
+        img13.src="https://images-na.ssl-images-amazon.com/images/I/51gJr7lhyxL._SX380_BO1,204,203,200_.jpg";
+        document.body.appendChild(img13);
+        img13.style.height = '300px';
+        img13.style.width = '300px';
+        document.write("<br />");
+
+        var text14="High Performance JavaScript by Nicholas C. Zakas";
+        document.write(text12.fontsize(60));
+        document.write("<br />");
+        var img14=document.createElement("img");
+        img14.src="https://images-na.ssl-images-amazon.com/images/I/51w-afj4nyL._SX379_BO1,204,203,200_.jpg";
+        document.body.appendChild(img14);
+        img14.style.height = '300px';
+        img14.style.width = '300px';
+        document.write("<br />");
+
+        var text15="Beginning JavaScript by Paul Wilton";
+        document.write(text15.fontsize(60));
+        document.write("<br />");
+        var img15=document.createElement("img");
+        img15.src="https://images-na.ssl-images-amazon.com/images/I/51T8qBsYtjL._SX396_BO1,204,203,200_.jpg";
+        document.body.appendChild(img15);
+        img15.style.height = '300px';
+        img15.style.width = '300px';
+        document.write("<br />");
+
+     }
+     if(x==4)
+     {  var text16= "Head First Python by Paul Barry";
+        document.write(text16.fontsize(60));
+        document.write("<br />");
+        var img16=document.createElement("img");
+        img16.src="https://www.oreilly.com/library/cover/9781491919521/250w/";
+        document.body.appendChild(img16);
+        img16.style.height = '300px';
+        img16.style.width = '300px';
+        document.write("<br />");
+        document.body.style.background='#6a5acd';
+
+        var text17="Beginning Python: From Novice to Professional by Magnus Lie Hetland";
+        document.write(text17.fontsize(60));
+        document.write("<br />");
+        var img17=document.createElement("img");
+        img17.src="https://images-na.ssl-images-amazon.com/images/I/51LH36eCyaL._SX376_BO1,204,203,200_.jpg";
+        document.body.appendChild(img17);
+        img17.style.height = '300px';
+        img17.style.width = '300px';
+        document.write("<br />");
+
+     
+        var text18="Think Python: An Introduction to Software Design by Allen B. Downey";
+        document.write(text18.fontsize(60));
+        document.write("<br />");
+        var img18=document.createElement("img");
+        img18.src="https://images-na.ssl-images-amazon.com/images/I/51TqUmX1kpL._SX381_BO1,204,203,200_.jpg";
+        document.body.appendChild(img18);
+        img18.style.height = '300px';
+        img18.style.width = '300px';
+        document.write("<br />");
+
+        var text19="Effective Python by Brett Slatkin";
+        document.write(text19.fontsize(60));
+        document.write("<br />");
+        var img19=document.createElement("img");
+        img19.src="https://images-na.ssl-images-amazon.com/images/I/41XiNqkzNyL._SX378_BO1,204,203,200_.jpg";
+        document.body.appendChild(img19);
+        img19.style.height = '300px';
+        img19.style.width = '300px';
+        document.write("<br />");
+
+        var text20="Python Essential Reference by  David Beazley";
+        document.write(text20.fontsize(60));
+        document.write("<br />");
+        var img20=document.createElement("img");
+        img20.src="https://images-na.ssl-images-amazon.com/images/I/41YJn6bLgbL._SX332_BO1,204,203,200_.jpg";
+        document.body.appendChild(img20);
+        img20.style.height = '300px';
+        img20.style.width = '300px';
+        document.write("<br />");
+
+     }
+     if(x==5)
+     {  var text21= "The Ruby Programming Language by David Flanagan, Yukihiro Matsumoto";
+        document.write(text21.fontsize(60));
+        document.write("<br />");
+        var img21=document.createElement("img");
+        img21.src="https://covers.oreillystatic.com/images/9780596516178/cat.gif";
+        document.body.appendChild(img21);
+        img21.style.height = '300px';
+        img21.style.width = '300px';
+        document.write("<br />");
+        document.body.style.background='hsl(0, 100%, 75%)';
+
+     
+        var text22="Programming Ruby by Dave Thomas, Chad Fowler, Andrew Hunt";
+        document.write(text22.fontsize(60));
+        document.write("<br />");
+        var img22=document.createElement("img");
+        img22.src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Programming_ruby.jpg/220px-Programming_ruby.jpg";
+        document.body.appendChild(img22);
+        img22.style.height = '300px';
+        img22.style.width = '300px';
+        document.write("<br />");
+
+
+        var text23="Head First Ruby by Jay McGavren";
+        document.write(text23.fontsize(60));
+        document.write("<br />");
+        var img23=document.createElement("img");
+        img23.src="https://images-na.ssl-images-amazon.com/images/I/519X9QSu48L._SX258_BO1,204,203,200_.jpg";
+        document.body.appendChild(img23);
+        img23.style.height = '300px';
+        img23.style.width = '300px';
+        document.write("<br />");
+ 
+        var text24="Beginning Ruby: From Novice to Professional by Peter Cooper ";
+        document.write(text24.fontsize(60));
+        document.write("<br />");
+        var img24=document.createElement("img");
+        img24.src="https://images-na.ssl-images-amazon.com/images/I/418Xv0%2B73bL._SX376_BO1,204,203,200_.jpg";
+        document.body.appendChild(img24);
+        img24.style.height = '300px';
+        img24.style.width = '300px';
+        document.write("<br />");
+
+        var text25=" Effective Ruby by Peter J. Jones";
+        document.write(text25.fontsize(60));
+        document.write("<br />");
+        var img25=document.createElement("img");
+        img25.src="https://www.effectiveruby.com/images/cover.jpg";
+        document.body.appendChild(img25);
+        img25.style.height = '300px';
+        img25.style.width = '300px';
+        document.write("<br />");
+
+     }                           
+}
+</script>
+
+
+</html>
