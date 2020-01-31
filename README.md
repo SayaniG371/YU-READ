@@ -5,7 +5,7 @@ Start by selecting your choices!
 Choose any of the languages and start learning.
 
 
-THIS WEBSITE IS PREPARED FOR BEGGINERS WHO HAVE A PASSION FOR CODING !
+THIS IS PREPARED FOR BEGGINERS WHO HAVE A PASSION FOR CODING !
               HAPPY CODING ! HAPPY READING !
  
 YOU HAVE CURRENTLY THE CHOICE OF GETTING THE BOOK NAMES FOR 1. C++ 
@@ -30,3 +30,7 @@ THIS IS ALERT SHOWN FOR CHOICE SELECTED
 THIS IS THE BOOK SUGGESTION LIST!
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G4.JPG)
 ![image](https://github.com/cosmicity-kepleria/YU-READ/blob/master/G5.JPG)
+
+
+link for my webpage :
+https://cosmicity-kepleria.github.io/YU-READ/index.html
